@@ -84,29 +84,5 @@ TLDR: run the following command.
 ./bin/create-conda-env.sh environment-nvidia-gpu.yml && ./bin/install-llamafile.sh
 ```
 
-#### 1. Creating the Conda environment
-
-After adding any necessary dependencies that should be downloaded via `conda` to the `environment.yml` file and any
-dependencies that should be downloaded via `pip` to the `requirements.txt` file you create the Conda environment in a
-sub-directory `./env`of your project directory by running the following shell script.
-
-```bash
-./bin/create-conda-env.sh environment-nvidia-gpu.yml
-```
-
-Once the new environment has been created you can activate the environment with the following command.
-
-```bash
-conda activate ./env
-```
-
-Note that the `./env` directory is *not* under version control as it can always be re-created as necessary.
-
-#### 2. Installing Llamafile (and friends!) 
-
-After creating the Conda environment you can install Llamafile (and Whisperfile and Sdfile) by running the following
-shell script.
-
-```bash
-./bin/install-llamafile.sh
-```
+To support NVIDIA GPU acceleration you need to install `cuda-toolkit` from the `nvidia` Conda channel. This 
+change is made in the `environment-nvidia-gpu.yml` file.
