@@ -1,12 +1,15 @@
 name: null
 
 channels:
+  - nvidia
   - conda-forge
   - nodefaults
 
 dependencies:
+  - cuda-toolkit
   - jupyterlab
   - jupyterlab-lsp
+  - jupyterlab-nvdashboard
   - numpy
   - pip
   - pip:
