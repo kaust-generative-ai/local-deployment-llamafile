@@ -7,8 +7,10 @@ channels:
 dependencies:
   - jupyterlab
   - jupyterlab-lsp
+  - numpy
   - pip
   - pip:
     - -r requirements.txt
   - python
   - python-lsp-server
+  - tqdm
