@@ -86,3 +86,7 @@ TLDR: run the following command.
 
 To support NVIDIA GPU acceleration you need to install `cuda-toolkit` from the `nvidia` Conda channel. This 
 change is made in the `environment-nvidia-gpu.yml` file.
+
+## Funding Acknowledgment
+
+This project is supported by funding from King Abdullah University of Science and Technology (KAUST) - Center of Excellence for Generative AI, under award number 5940.
