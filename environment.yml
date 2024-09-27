@@ -8,6 +8,7 @@ dependencies:
   - jupyterlab
   - jupyterlab-lsp
   - numpy
+  - openai
   - pip
   - pip:
     - -r requirements.txt
