@@ -38,15 +38,6 @@ sub-directory `./env`of your project directory by running the following shell sc
 ./bin/create-conda-env.sh
 ```
 
-Once the new environment has been created you can activate the environment with the following command.
-
-```bash
-conda activate ./env
-```
-
-Note that the `./env` directory is *not* under version control as it can always be re-created as 
-necessary.
-
 #### Support for NVIDIA GPU acceleration
 
 If you have an NVIDIA GPU, the in order to support GPU acceleration you need to install `cuda-toolkit` from the 
@@ -87,6 +78,17 @@ the following command.
 ```bash
 conda run --prefix ./env --live-stream ./bin/build-llamafile.sh
 ```
+
+### Activating the Conda environment
+
+Once the new environment has been created you can activate the environment with the following command.
+
+```bash
+conda activate ./env
+```
+
+Note that the `./env` directory is *not* under version control as it can always be re-created as 
+necessary.
 
 ## Funding Acknowledgment
 
