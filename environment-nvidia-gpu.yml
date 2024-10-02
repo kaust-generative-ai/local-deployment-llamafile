@@ -6,6 +6,7 @@ channels:
   - nodefaults
 
 dependencies:
+  - cuda-nvcc
   - cuda-toolkit
   - jupyterlab
   - jupyterlab-lsp
