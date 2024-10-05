@@ -70,7 +70,7 @@ version number as a command line argument to the script as follows.
 conda run --prefix ./env --live-stream ./bin/install-llamafile.sh 0.8.13
 ```
 
-### Building Llamafile (and friends!) from source (optional)
+## Building Llamafile (and friends!) from source (optional)
 
 After creating the Conda environment you can build Llamafile (and Whisperfile, Sdfile, and Llamafiler) by running 
 the following command.
@@ -79,7 +79,7 @@ the following command.
 conda run --prefix ./env --live-stream ./bin/build-llamafile.sh
 ```
 
-### Activating the Conda environment
+## Activating the Conda environment
 
 Once the new environment has been created you can activate the environment with the following command.
 
